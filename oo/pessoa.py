@@ -1,7 +1,7 @@
 class Pessoa:
-    def __init__(self, *filhos, nome=None, idade=45):
+    def __init__(self, *filhos, nome=None, idade=35):
         self.idade = idade
-        self.nome=None
+        self.nome = nome
         self.filhos = list(filhos)
 
     def cumprimentar(self):
