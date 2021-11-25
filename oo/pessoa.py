@@ -18,3 +18,7 @@ if __name__ == '__main__':
     print(Rawston.idade)
     for filho in Rawston.filhos:
         print(filho.nome)
+    Rawston.sobrenome= 'Pinto'## atibuto adicionado dinamicamente
+    # del Rawston.sobrenome #Remoção
+    # print(Rawston.__dict__) #conferir instancia de um objeto
+    # print(Marinho.__dict__) #conferir instancia de um objeto
